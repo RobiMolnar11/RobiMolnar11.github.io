@@ -1,0 +1,127 @@
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+nav {
+  width: 100%;
+  height: 100px;
+  background: #001F3F;
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 1;
+  
+  
+}
+
+a {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 30px;
+  color: white;
+  text-decoration: none;
+}
+article {
+  display: flex;
+  margin-top: 150px;
+}
+
+ h1 {
+  text-align: left;
+  font-family: 'Abril Fatface', cursive;
+  color: #7FDBFF;
+  font-size: 50px;
+  line-height: 60px;
+  letter-spacing: 4px;
+   position: absolute;
+   top: 360px;
+   left: 60px;
+  
+}
+h1 span {
+  font-size: 90px;
+}
+aside {
+  width: 500px;
+}
+main {
+  width: 700px;
+  margin: 20px;
+/*   font-family: 'Josefin Sans', sans-serif; */
+  font-family: 'Lato', sans-serif;
+  color: #001F3F;
+  font-size: 30px;
+  line-height: 1.5;
+}
+main div {
+  margin-bottom: 100px;
+}
+.image {
+  width: 500px;
+  height: 700px;
+  background-image: url("https://raw.githubusercontent.com/green-fox-academy/myfirstapp-syllabus/master/assets/first-website-header.png");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+ ul {
+  list-style-type: square;
+}
+.greybox {
+  width: 500px;
+  height: 500px;
+  background: #001F3F;
+  margin-top: 50px;
+  text-align: center;
+  position: relative;
+  padding: 0;
+  margin-bottom: 550px;
+}
+.greybox blockquote {
+  color: white;
+font-family: 'Merriweather', serif;
+  font-size: 75px;
+  font-style: italic;
+  font-weight: bold;
+  margin: 0;
+  padding: 45px;
+  
+}
+blockquote::before {
+  content: '”';
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 90px;
+}
+ h2 {
+  text-transform: uppercase;
+}
+.fontSizeSmaller {
+  font-size: 25px;
+}
+.italic {
+  font-style: italic;
+}
+.topMargin0 {
+  margin-top: 0;
+}
+.bottomMargin0 {
+  margin-bottom: 0;
+}
+.last {
+  padding-bottom: 10px;
+  height: 850px;
+  padding-top: 60px;
+  margin-top: 0px;
+}
+#introduction {
+  margin-bottom: 300px;
+}
+#secondGreybox {
+  margin-bottom: 400px;
+}
+.image h1 {
+  color: #001F3F;
+}
